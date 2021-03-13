@@ -10,7 +10,7 @@ function App() {
       </header>
       <div>
         <h1 className="b">
-          COMING SOON
+          DISCORD
         </h1>
       </div>
     </div>
