@@ -29,6 +29,17 @@ h1.b{
   color: white;
 }
 
+p {
+  font-family: "Whitney","Helvetica","Arial";
+  color: white;
+  font-size: 48px;
+}
+
+a {
+  font-family: "Whitney","Helvetica","Arial";
+  color: #7289DA
+}
+
 .App-header {
   /* background-color: #282c34; */
   min-height: 10%;
