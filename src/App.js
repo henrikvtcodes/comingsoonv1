@@ -12,7 +12,6 @@ function App() {
         <h1 className="b">
           COMING SOON
         </h1>
-        <br />
         <p>
           See the source code on <a href="https://github.com/henrikvtcodes/comingsoonv1">Github.</a>
         </p>
