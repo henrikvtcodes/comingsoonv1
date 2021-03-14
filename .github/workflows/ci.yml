@@ -1,12 +1,15 @@
-name: CI-Firebase-hosting
-description: 'Upload a node based frontend framework generated projects(React/Angular/VueJS) to the firebase hosting.'
-author: 'Danushka Herath'
-
+name: CI
 on:
   push:
     branches:
       - master
-
+      - main
+  pull_request:
+    branches:
+      - master
+      - main
+  workflow_dispatch:
+ 
 jobs:
   firebase-deploy:
 
@@ -16,6 +19,6 @@ jobs:
       - uses: actions/checkout@master
       - uses: actions/setup-node@master
         with:
-          node-version: '10.x'
+          node-version: '14.x'
       - run: npm install
       - run: npm run buil
