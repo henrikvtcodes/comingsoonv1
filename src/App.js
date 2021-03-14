@@ -14,7 +14,7 @@ function App() {
         </h1>
         <br />
         <p>
-          See the source code on <a href="github.com/henrikvtcodes/comingsoonv1">Github.</a>
+          See the source code on <a href="https://github.com/henrikvtcodes/comingsoonv1">Github.</a>
         </p>
       </div>
     </div>
